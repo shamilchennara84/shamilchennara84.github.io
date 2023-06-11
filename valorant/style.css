@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+   
+    
+    font-family:"FF Mark W05",
+        Arial,
+        sans-serif;
+}
+
+body{
+background-color: rgb(17, 17, 17);
+color: white;
+overflow-x: hidden;
+
+}
+/* .top{
+    position: fixed;
+} */
+
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(17, 17, 17);
+        height: 75px;
+        width: 100%;
+}
+/* .header {
+    background-color: rgb(17, 17, 17);
+    height: 20px;
+    width: 100%;
+    
+   
+} */
+
+
+
+.nav-links ul{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+.nav-links li a{
+    
+    padding: 5px 15px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.nav-links li a:hover{
+    background-color:rgb(43,42,41)
+}
+
+.list li{
+    list-style: none;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 10px;
+}
+
+.logo img{
+    height: 60px;
+    width:120px;
+
+}
+
+#riot{
+    /* height: auto;
+    width: 120px;
+    position: relative;
+    bottom: 5px;
+    right: 5px; */
+    fill: rgb(254, 254, 254);
+    cursor: pointer;
+}
+
+#riot:hover{
+    fill: rgb(255, 70, 85);
+}
+
+#valo{
+    height:auto;
+    width: 63px;
+   cursor: pointer;
+}
+
+#search {
+    border-radius: 16px 16px 16px 16px ;
+    background-color: rgb(43, 42, 41);
+    height: auto;
+    width: 61px;
+    position: relative;
+    left: 12px ;
+    top: 4px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+#globe {
+    height: auto;
+    width: 15px;
+    background-color: transparent;
+    padding: 9px;
+    border-radius:16px 16px 16px 16px ;
+    cursor: pointer;
+}
+
+#globe:hover{
+    background-color: rgb(43, 42, 41)
+    
+}
+
+.right-section button{
+    width:115px;
+    font-weight: 500;
+    border: 2px solid black;
+    color: black;
+    padding:10px;
+    background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);;
+    border-radius: 16px 16px 16px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-section{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px
+}
+
+/* -------------video section----------------------------------- */
+
+.video{
+    position: relative;
+}
+.video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
+
+.main .title{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 305px;
+    left: 641px;
+    background-color: transparent;
+    gap: 10px;
+}
+
+.main .title img{
+    background-color: transparent;
+    height: auto;
+    width: 765px
+}
+
+.main .title span{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.main .title button{
+    background-color:rgb(255, 70, 85);
+    height: 57px;
+    width: 248px;
+    border:0.5px solid transparent;
+    outline: 1px solid rgb(123, 129, 136);
+    outline-offset: 7px;
+    color: rgb(255, 255, 255);
+    border: none;
+   
+}
+/* --------------news section-------------- */
+.news{
+    position: relative;
+    width: 100%;
+    height: 625px;
+    background-color: rgb(236, 232, 225);
+    overflow: hidden;
+}
+
+.newstitle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+
+.newstitle h1,span{
+    color: rgb(255, 48, 64);
+}
+.title{
+    position: absolute;
+    top: 51px;
+    left: 393px;
+    z-index: 30;
+}
+
+.nextpage{
+    position: absolute;
+    top: 66px;
+    left: 1463px;
+    z-index: 30;
+    cursor: pointer;
+}
+.newstitle h1{
+    font-size: 100px;
+    letter-spacing: -3px;
+     font-family: Tungsten-Bold, arial, georgia, sans-serif;
+}
+
+.newstitle span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* ---------------------------------------------------- */
+
+.news .backfont{
+    background-color: rgb(236, 232, 225);
+    width: 100%;
+    position: relative;
+    
+
+    
+}
+
+
+
+.news .backfont span{
+    
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(236, 232, 225);
+    color: rgb(236, 232, 225);
+    font-size: 300px;
+    margin: 0;
+    padding: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0,0.1)
+    
+} 
+
+.news .backfont :nth-child(1) {
+    position: absolute;
+    left: 432px;
+}
+
+.news .backfont :nth-child(2) {
+    position: absolute;
+    top: 279px;
+     left: 725px;
+     
+}
+
+.card-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 398px;
+    top: 131px;
+    background-color: transparent;
+    
+   
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width:409px
+
+}
+.image-container{
+    background-color: transparent;
+}
+.cards img{
+    z-index: 10;
+    height: auto;
+    width: 379px;
+    cursor: pointer;
+    
+
+}
+
+.date{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 62, 58);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.desc{
+    color: rgb(255, 70, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.below-content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 62, 58);
+    word-wrap: break-word;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+
+/* -------------------------------- */
+
+.overview{
+    background-image: url(images/overview.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 849px
+}
+
+.content-overview{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    position: relative;
+    left: 415px;
+    top: 424px;
+       
+}
+
+.content-overview span{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 9px;
+
+}
+
+
+.content-overview h1{
+    font-size: 100px;
+        letter-spacing: -3px;
+        font-family: Tungsten-Bold, arial, georgia, sans-serif;
+        letter-spacing: -10px;
+      
+}
+
+.content-overview button{
+    background-color: rgb(255, 70, 85);
+        height: 57px;
+        width: 248px;
+        border: 0.5px solid rgb(255, 70, 85);
+        outline: 1px solid rgb(123, 129, 136);
+        outline-offset: 7px;
+        color: rgb(255, 255, 255);
+        border: none;
+}
+
+/* ------------------------------------------------- */
+
+.weare{
+    position: relative;
+    background-color: rgb(236, 232, 225);
+    width:100%;
+    height:864px;
+    display: flex;
+    flex-direction: column;
+    padding: 112px 0 0 136px;
+    
+}
+.upperweare{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+}
+
+
+.upperweare .title-weare h1 {
+        font-size: 150px;
+        font-family:  arial, georgia, sans-serif;
+        letter-spacing: -4px;
+        color:rgb(15, 25, 35);
+        font-weight: 800;
+        transform: scaleX(0.5);
+
+}
+
+.reverse{
+    transform:scaleX(-1);
+    font-size: 9px;
+    letter-spacing:2px ;
+    border-bottom: 4px solid rgb(255, 48, 64);
+    padding-right: 50px;
+     padding-bottom: 6px;
+     position: relative;
+     right: 191px;
+     bottom: 25px;
+  
+}
+
+
+
+.lowerweare h4{
+    font-family: Arial, Helvetica, sans-serif;
+        color: rgb(56, 62, 58);
+        word-wrap: break-word;
+        text-transform: uppercase;
+        font-size: 19px;
+        
+}
+
+.lowerweare p{
+    color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(56, 62, 58);
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 24px;
+}
+
+.lowerweare button{
+    background-color: rgb(255, 70, 85);
+        height: 57px;
+        width: 280px;
+        border: 0.5px solid rgb(255, 70, 85);
+        outline: 1px solid rgb(123, 129, 136);
+        outline-offset: 7px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        position: relative;
+        top: 10px;
+        border: none;
+}
+
+.lowerweare{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+    left: 27px;
+    
+}
+
+
+.rightlower video{
+    height: auto;
+    width: 723px;
+    position: relative;
+    top: 24px;
+    cursor: pointer;
+
+}
+
+
+.bottomweare{
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
+
+
+/* ----------------------------------agents */
+
+
+.youragents{
+    background-color: rgb(255, 70, 85);
+    background-image: url(images/backagents.png);
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    height:864px;
+    position: relative;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.leftagents{
+background-image: url(images/backagents2.png);
+background-repeat: no-repeat;
+
+position: relative;
+background-size: inherit;
+background-position: center;
+   
+}
+
+.reynaraze img{
+    height: auto;
+    width: 698px;
+    
+
+    
+}
+
+.rightagents{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.rightagents h1{
+        font-size: 105px;
+        font-family: arial, georgia, sans-serif;
+        letter-spacing: -4px;
+        font-weight: 800;
+        transform: scaleX(0.5);
+        line-height: 90px;
+        color: rgb(236, 232, 225);
+        position: relative;
+        right: 116px;
+        
+}
+
+.rightagents h4{
+    font-family: Arial, Helvetica, sans-serif;
+        color:rgb(236, 232, 225);
+        word-wrap: break-word;
+        text-transform: uppercase;
+        font-size: 15px;
+}
+
+.rightagents p{
+  
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(236, 232, 225);
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 24px;
+}
+
+.rightagents button{
+    background-color: rgb(236, 232, 225);
+        height: 43px;
+        height: 47px;
+        width: 228px;
+        border: 0.5px solid rgb(255, 70, 85);
+        outline: 1px solid rgba(236, 232, 225, 0.4);
+        outline-offset: 7px;
+        color: rgb(80, 85, 89);
+        font-size: 10px;
+        font-weight: 800;
+        position: relative;
+        left: 65px;
+        border: none;
+        
+
+}
+
+/* --------------------map-------------- */
+.yourmap{
+    background-color: rgb(236, 232, 225);
+    height: 659px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.leftmap{
+    background-image: url(images/backgroundmap.png);
+    height: 659px;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y:35px; 
+    
+}
+
+.rightmap{
+    background-image: url(images/backgroundmap2.png);
+    height: 659px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    padding-left: 106px;
+    position: relative;
+    
+
+    
+      
+}
+
+.rightmap h1{
+        font-size: 105px;
+        font-family: arial, georgia, sans-serif;
+        letter-spacing: -4px;
+        font-weight: 900;
+        transform: scaleX(0.5);
+        color:rgb(15, 25, 35);
+        position: relative;
+        right: 397px;
+        
+    
+}
+
+.rightmap h4{
+    color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(56, 62, 58);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        
+}
+.rightmap p{
+    font-family: Arial, Helvetica, sans-serif;
+        color: rgb(118, 128, 120);
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 24px;
+}
+
+.rightmap button{
+    background-color: rgb(255, 70, 85);
+        height: 42px;
+        width: 238px;
+        border: 0.5px solid rgb(255, 70, 85);
+        outline: 1px solid rgb(123, 129, 136);
+        outline-offset: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        position: relative;
+        font-size: 10px;
+        border: none;
+        
+        
+}
+
+.rightmap img{
+    position: absolute;
+    bottom: 342px;
+    left: 551px;
+}
+/* --------------------------footer------------- */
+
+.footer{
+    width: 100%;
+    height: 445px;
+    background-color:rgb(17, 17, 17) ;
+}
+.footertop{
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footertoplist{
+    display: flex;
+    list-style: none;
+    /* font-family: Arial, Helvetica, sans-serif; */
+     color: rgb(236, 232, 225);
+    font-size: 12px;
+    font-weight: 600;
+    
+
+}
+.footertoplist li a{
+    padding: 4px 14px;
+    background-color: transparent;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+
+.footertoplist li a:hover{
+    
+    background-color:rgb(115, 115, 115);
+   
+}
+
+.footericons{
+    fill: rgb(249,249,249);
+    height:auto;
+    width: 100%;
+    fill-rule: evenodd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin: 21px 0 30px 0;
+
+}
+
+.footericons svg{
+    height: auto;
+    width: 14px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 7px 7px 7px 7px;
+    padding: 6px;
+    cursor: pointer;
+
+}
+.footerlogos{
+    text-align: center;
+    margin: 18px 0;
+}
+
+.footerlogos svg:nth-child(1){
+    fill: rgb(115, 115, 115);
+    height: auto;
+    width: 78px;
+    position: relative;
+        right: 10px;
+        cursor: pointer;
+}
+
+.footerlogos svg:nth-child(1):hover {
+    fill:rgb(236, 232, 225);
+    
+}
+
+.footerlogos img{
+    height: auto;
+    width: 84px;
+    
+}
+
+.copyryt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(126,126,126);
+    line-height: 14px;
+  
+
+}
+
+.flexclass{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 25px 0;
+    
+}
+
+.flexclass li a {
+
+   font-size: 10px;
+   letter-spacing: 1px;
+
+}
+
+.flexclass li a:hover {
+
+    background-color: rgba(115, 115, 115,0.3);
+    transition: 0.3s ease-in-out;
+
+}
+
+.footerend{
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+}
+
+.image-container-footer{
+background-color: rgb(41, 41, 41);
+padding: 9px;
+border-radius: 10px 10px 10px 10px;
+
+}
+
+.image-container-footer img{
+    height: 78px;
+    width: 74px;
+    cursor: pointer;
+   
+   
+}
+
+.red-button{
+    background: linear-gradient(to right, rgb(17, 17, 17) 50%, rgb(255, 70, 85) 50%);
+    /* background: linear-gradient(to right, rgb(17, 17, 17) 50%,rgb(255, 70, 85) 49%); */
+    background-size: 200%;
+    background-position: right bottom;
+    transition:  .5s ease-in-out;
+    border: none;
+    cursor: pointer;
+    
+   
+}
+
+.red-button:hover{background-position: left ;
+}
+
+
+.white-button{
+        background: linear-gradient(to right, rgb(17, 17, 17) 50%, rgb(236, 232, 225) 50%);
+        background-size: 200%;
+        background-position: right bottom;
+        transition: .5s ease-in-out;
+        border: none;
+        cursor: pointer;
+        
+}
+        
+.white-button:hover {
+    background-position: left;
+    color: rgb(236, 232, 225) ;
+}
