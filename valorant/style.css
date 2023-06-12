@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@font-face {
+    font-family: 'Beni';
+    src: local('Beni Bold'), local('Beni-Bold'),
+        url('BeniBold.woff2') format('woff2'),
+        url('BeniBold.woff') format('woff'),
+        url('BeniBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: SF Arborcrest Heavy;
+    src:url('SF Arborcrest Heavy.ttf') format('truetype');
+}
+
 
 * {
     margin: 0;
@@ -48,8 +62,10 @@ overflow-x: hidden;
     
     padding: 5px 15px;
     border-radius: 10px 10px 10px 10px;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
+    font-family: SF Arborcrest Heavy;
+    letter-spacing: 1.5px;
 
 }
 
@@ -130,6 +146,8 @@ overflow-x: hidden;
     border-radius: 16px 16px 16px 16px;
     margin-right: 8px;
     cursor: pointer;
+    font-family: SF Arborcrest Heavy;
+    letter-spacing: 1.5px;
 }
 
 .nav{
@@ -229,8 +247,9 @@ overflow-x: hidden;
 }
 .newstitle h1{
     font-size: 100px;
-    letter-spacing: -3px;
-     font-family: Tungsten-Bold, arial, georgia, sans-serif;
+     font-family: 'Beni';
+     position:relative;
+     top: 13px;
 }
 
 .newstitle span{
@@ -369,9 +388,9 @@ overflow-x: hidden;
 
 .content-overview h1{
     font-size: 100px;
-        letter-spacing: -3px;
-        font-family: Tungsten-Bold, arial, georgia, sans-serif;
-        letter-spacing: -10px;
+       
+        font-family:'Beni';
+    
       
 }
 
