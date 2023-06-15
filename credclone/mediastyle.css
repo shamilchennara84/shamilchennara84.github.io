@@ -1,0 +1,47 @@
+/* ----------------------between 768px to 1279px----------------- */
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .nav-logo img {
+            width: 40px;
+            height: 53px;
+         }
+
+    header {
+             padding: 60px 50px 100px;
+        }
+
+}
+
+
+
+/* ----------------------between 481px to 767px----------------- */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .nav-logo img{
+             width: 40px;
+            height: 53px;
+         } 
+
+    header {
+            padding: 60px;
+            background-image: url(images/hero-bg-mobile.jpeg);
+            }
+        }
+
+                 
+
+
+
+
+/* --------------------below--480px----------------- */
+@media screen and (max-width: 480px) {
+
+    .nav-logo img {
+            width: 40px;
+            height: 53px;
+    
+        }
+    header {
+            padding: 60px 40px 70px;
+            background-image: url(images/hero-bg-mobile.jpeg);
+                }
+}
