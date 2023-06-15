@@ -427,11 +427,11 @@ overflow-x: hidden;
 
 .upperweare .title-weare h1 {
         font-size: 150px;
-        font-family:  arial, georgia, sans-serif;
-        letter-spacing: -4px;
+      font-family: 'Beni';
+        /* letter-spacing: -4px; */
         color:rgb(15, 25, 35);
         font-weight: 800;
-        transform: scaleX(0.5);
+        /* transform: scaleX(0.5); */
 
 }
 
