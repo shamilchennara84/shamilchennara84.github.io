@@ -1,4 +1,36 @@
-/* ----------------------between 768px to 1279px----------------- */
+
+@media screen and (max-width: 1630px) {
+
+.head-title-1 {
+    font-size: 106px;
+    line-height: 125px;
+    letter-spacing: -3px;
+
+}
+}
+/* -------------------------------------------------------------- */
+
+@media only screen and (min-width: 901px) and (max-width: 1279px) {
+    .head-title-1{
+    font-size: 97px;
+    line-height: 107px;
+}
+    .head-title-2{
+    font-size: 25px;
+}
+
+
+header{
+    justify-content: space-between;
+}
+
+
+
+
+}
+
+/* ----------------------between 768px to 1279px-----------------  */
+
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
 
     .nav-logo img {
@@ -12,6 +44,24 @@
 
 }
 
+/* ---------------------------------------------------------------------- */
+
+
+@media only screen and (min-width: 768px) and (max-width: 900px){
+
+    .head-title-1{
+        font-size: 82px;
+        line-height: 92px;
+}
+
+ .head-title-2 {
+     font-size: 25px;
+ }
+
+header {
+    justify-content: space-between;
+}
+}
 
 
 /* ----------------------between 481px to 767px----------------- */
@@ -25,10 +75,19 @@
             padding: 60px;
             background-image: url(images/hero-bg-mobile.jpeg);
             }
+        
+
+    .nav-links a{
+            display: none;
+
         }
 
-                 
-
+    .nav-breadcrumbs {
+            display: block;
+        
+            }
+                        
+    }
 
 
 
@@ -44,4 +103,17 @@
             padding: 60px 40px 70px;
             background-image: url(images/hero-bg-mobile.jpeg);
                 }
+
+
+    .links a {
+            display: none;
+                
+                }
+
+    .nav-breadcrumbs {
+            display: block;
+                
+                }
+
+                
 }

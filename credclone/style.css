@@ -1,10 +1,14 @@
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-
+html,body{
+    font-family: 'Gilroy-Bold ☞';
+    
+} 
 
 .container-fluid {
     padding: 0;
@@ -28,22 +32,18 @@ header{
     background-position: right bottom;
     display: flex;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
     padding: 60px 200px 200px;
+   
 }
 
 
 .nav{
         display: flex;
-        -webkit-box-pack: justify;
         justify-content: space-between;
-        -webkit-box-align: center;
         align-items: center;
 }
 .nav-logo{
         display: flex;
-        -webkit-box-align: center;
         align-items: center;
 }
 .nav-logo img{
@@ -51,20 +51,89 @@ header{
         height: 66px;
 }
 /* --------------------unorder list style remove--------------------- */
-ul{
-    
+.nav-links{
     display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-        
+        }
+
+.links{
+    padding: 4px 0px;
+    position: relative;
+   
 }
 
-ul li{
-    list-style: none;
-    
-}
 
-li a{
+.nav-links a{
     text-decoration: none;
+    font-size: 18px;
+    margin: 0px 20px 0px 36px;
+    white-space: nowrap;
     color: rgb(255, 255, 255);
+    opacity: 0.8;
+    line-height: 36px;
+    white-space: nowrap;
 }
+
+.nav-breadcrumbs{
+    display: none;
+
+}
+
+/* ----------------nav--bread crumb--------styling--------------------------- */
+
+
+
+
+
+
+
+
+
+/* title section styling */
+    .title-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+
+    .head-title-1{
+        font-size: 150px;
+        letter-spacing: -1;
+        text-align: center;
+        margin-top: 100px;
+        letter-spacing: -4.5px;
+        line-height: 150px;
+        white-space: pre-line;
+
+    }
+
+
+    .head-title-2{
+            
+        font-size: 30px;
+        letter-spacing: -0.2px;
+        line-height: 38px;
+        margin-top: 35px;
+        text-align: center;
+        white-space: pre-line;
+    }
+
+       .head-title-3 {
+        display: inline-flex;
+        white-space: nowrap;
+        align-items: center;
+        position: relative;
+        pointer-events: auto;
+        text-align: center;
+        padding: 20px 65px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        letter-spacing: 0.4px;
+        line-height: 30px;
+        border-radius: 40px;
+        cursor: pointer;
+        margin-top: 58px;
+       }
+
