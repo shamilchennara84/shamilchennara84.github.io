@@ -33,6 +33,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 60px 200px 200px;
+    justify-content: space-between;
    
 }
 
