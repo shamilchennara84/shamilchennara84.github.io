@@ -88,9 +88,19 @@ header {
 
     .nav-breadcrumbs {
             display: block;
+        }
+
+
+    .nav-breadcrumbs span {
+                display: block;
+                width: 25px;
+                height: 10px;
+                border-top: 2px solid #eee;
+            
         
             }
-                        
+
+                       
     
 
         .head-title-1 {
@@ -156,7 +166,7 @@ header {
         text-align: left;
 }
 
-.head-title-3{font-size: 18px;
+    .head-title-3{font-size: 18px;
         letter-spacing: 0.3px;
         line-height: 18px;
         padding: 16px 24px;
@@ -171,9 +181,18 @@ header {
                 }
 
     .nav-breadcrumbs {
-            display: block;
-                
-                }
+        display: block;
+    }
+
+
+    .nav-breadcrumbs span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+
+
+    }
 
                 
 }
