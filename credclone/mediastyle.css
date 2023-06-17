@@ -23,10 +23,6 @@
 header{
     justify-content: space-between;
 }
-
-
-
-
 }
 
 /* ----------------------between 768px to 1279px-----------------  */
@@ -76,6 +72,10 @@ header {
             padding: 60px;
             background-image: url(images/hero-bg-mobile.jpeg);
             justify-content: space-between;
+            }
+
+    .title-section {
+            align-items: flex-start;
             }
 
            
