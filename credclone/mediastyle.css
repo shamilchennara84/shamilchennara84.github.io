@@ -259,6 +259,11 @@
         padding: 195px 60px 90px;
    } 
 
+   .fourth-section{
+    min-height: 1280px;
+    justify-content: flex-end;
+   }
+
    .main-title-third-fourth {
         font-size: 85px;
         line-height: 75px;
@@ -293,6 +298,12 @@
         min-height: 1150px;
         background-position: right center;
     }  
+
+    .fourth-section{
+        background-image: url(images/money-matters-bg.webp);
+        min-height: 1350px;
+        justify-content: end;
+    }
 
     .desc-third-fourth {
         font-size: 14px;
@@ -337,7 +348,7 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 1279px)  {
-    .fourth-ad-section{
+    .ad-section{
         padding: 60px 100px ;
     }    
 }
@@ -354,18 +365,18 @@
         background-position: left center;
         }
 
-        .ad-quote {
-            font-size: 18px;
-            letter-spacing: -0.11px;
-            line-height: 18px;
-            opacity: 0.9;
+    .ad-quote {
+        font-size: 18px;
+        letter-spacing: -0.11px;
+        line-height: 18px;
+        opacity: 0.9;
         }
     }
    
 
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .fourth-ad-section{
+    .ad-section{
         padding: 60px;
      }
      .ad-quote{
@@ -376,7 +387,7 @@
 
 
 @media only screen and (max-width: 480px) {
-    .fourth-ad-section{
+    .ad-section{
         padding: 60px 40px;
     } 
 }
