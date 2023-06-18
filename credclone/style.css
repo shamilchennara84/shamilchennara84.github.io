@@ -11,6 +11,7 @@ html,body{
     overflow-y: visible;
     overflow-x:hidden;
     
+    
 
 } 
 
@@ -238,3 +239,27 @@ header{
 
     }  
 
+/* ------------------------------------ad section------------------
+------------------------------------------------------------------ */
+.fourth-ad-section{
+    background-color: rgb(248, 248, 248);
+    color: rgb(33, 36, 38);
+    width: 100vw;
+    padding: 60px 200px
+    }
+.ad-quote{
+    font-size: 24px;
+    line-height: 38px;
+    white-space: pre-line;
+    }
+
+.ad-logos{
+    background-image: url(images/brands-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    height: 50px;
+    
+    margin-top: 50px;
+    }
