@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+html,body{
     font-family: 'Gilroy-Bold ☞';
     background-color: rgb(15, 15, 15);
     overflow-y: visible;
@@ -190,7 +190,7 @@ header{
     background-image: url(images/deserve-more-bg.webp);
     background-size: cover;
     justify-content: space-between;
-   
+    
    
  
 }
@@ -201,6 +201,8 @@ header{
     line-height: 96px;
     white-space: pre-line;
     opacity: 0.9;
+    
+    
 }
 
 .sub-third-fourth {
