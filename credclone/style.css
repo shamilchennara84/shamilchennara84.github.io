@@ -9,6 +9,8 @@ body{
     font-family: 'Gilroy-Bold ☞';
     background-color: rgb(15, 15, 15);
     overflow-y: visible;
+    overflow-x:hidden;
+    
 
 } 
 
@@ -150,7 +152,7 @@ header{
     left: 50%;
 }
 
-.mob-images:nth-child(1){
+ .mob-images:nth-child(1){
     transform: translate(-160%, 25%);
     z-index: 98;
 
@@ -174,6 +176,63 @@ header{
 .mob-images:nth-child(5) {
     transform: translate(60%, 25%);
     z-index: 98;
+} 
+
+/* --------------------third-section------------------------- */
+
+.third-section{
+    background-color: rgb(238, 47, 76);
+    color: rgb(248, 248, 248);
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    padding: 240px 200px 180px;
+    background-image: url(images/deserve-more-bg.webp);
+    background-size: cover;
+    justify-content: space-between;
+   
+   
+ 
 }
 
-/* --------------------------------------------- */
+.main-title-third-fourth{
+    font-size: 100px;
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+}
+
+.sub-third-fourth {
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-top: 16px;
+}
+
+.desc-third-fourth{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-bottom: 40px;
+
+}
+
+.button-third-fourth{
+           
+    
+    white-space: nowrap;
+    align-items: center;
+    pointer-events: auto;
+    padding: 20px 65px;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    cursor: pointer;
+
+    }  
+
