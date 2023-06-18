@@ -8,7 +8,7 @@
 
 }
 }
-/* -------------------------------------------------------------- */
+/* ----------------------between 901px and 1279px----------- */
 
 @media only screen and (min-width: 901px) and (max-width: 1279px) {
     .head-title-1{
@@ -97,18 +97,14 @@ header {
                 height: 10px;
                 border-top: 2px solid #eee;
             
-        
             }
-
-                       
-    
 
         .head-title-1 {
                 font-size: 65px;
                 letter-spacing: -1.65px;
                 line-height: 55px;
                 text-align: left;
-                white-space: inherit;
+                /* white-space: inherit; */
                 width: 340px;
         }
 
@@ -195,4 +191,60 @@ header {
     }
 
                 
+}
+
+/* header section ended ---------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .mob-images{
+        width: 300px;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .second-section{
+        height: 620px;
+    }
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .second-section{
+        height: 580px;
+    }
+
+    .mob-images {
+        width: 270px;
+    }
+   
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .second-section{
+    height : 450px;
+    background-image: url(images/mobile-background-mob.webp);
+
+    }
+
+    .mob-images {
+        width: 170px;
+    }
+    
 }
