@@ -395,7 +395,7 @@
 
 /* ------------------5th section------------------ */
 
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1279px) {
     .fifth-section {
         padding: 60px 100px 100px;
 }
@@ -405,14 +405,21 @@
         line-height: 70px;
 }
 
-
-
+    .section-4-right-placeholder{
+        width: 272px;
+        height: 480px;
 }
 
+    .section-4-right-placeholder  img{
+        width: 272px;
+        height: 480px;
+       
+}
 
+}
 
 @media screen and (max-width: 767px)  {
     .fifth-section {
         display:none;
         }
-}
+} */
