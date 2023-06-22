@@ -6,7 +6,7 @@
          line-height: 125px;
          letter-spacing: -3px;
 
-}
+    }
 }
 /* ----------------------between 901px and 1279px----------- */
 
@@ -14,14 +14,14 @@
     .head-title-1{
         font-size: 97px;
         line-height: 107px;
-}
+    }
     .head-title-2{
         font-size: 25px;
-}
+    }
 
     header{
         justify-content: space-between;
-}
+    }
 }
 
 /* ----------------------between 768px to 1279px-----------------  */
@@ -31,11 +31,11 @@
     .nav-logo img {
         width: 40px;
         height: 53px;
-         }
+    }
 
     header {
         padding: 60px 50px 100px;
-        }
+    }
 
 }
 
@@ -59,34 +59,80 @@
 }
 /* --------------------------------------- */
 
+@media only screen  and (max-width: 767px){
+
+    .nav-links {
+        z-index: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(15, 15, 15);
+        position: absolute;
+        width: 100%;
+        height: 183vh; 
+        transform: translateY(-100%);
+        left: 0;
+        padding-top: 291px;
+        gap: 40px;
+        transition: 0.5s ease-in-out;
+        
+    } 
+
+    input:checked ~ .nav .nav-links{
+        transform: translateY(0%);
+        transition: 0.5s ease-in-out;
+        
+        }
+
+    input:checked ~ body {
+        overflow-y: hidden;
+    }
+
+    .links-btn{
+        background-color: rgb(25, 27,28);
+        height: 60px;
+        width: 90vw;
+        border-radius: 16px ;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+
+
+
+}
+
 @media only screen and (min-width: 481px) and (max-width: 767px) {
    
     .nav-logo img{
         width: 40px;
         height: 53px;
-         } 
+    }    
 
     header {
         padding: 60px;
         background-image: url(images/hero-bg-mobile.jpeg);
         justify-content: space-between;
-        }
+    }
 
     .title-section {
         align-items: flex-start;
-        }
-
+    }
+    
+   
            
         
-
+/* 
     .nav-links a{
         display: none;
 
-        }
+    } */
 
     .nav-breadcrumbs {
         display: block;
-        }
+    }
 
 
     .nav-breadcrumbs span {
@@ -95,7 +141,7 @@
         height: 10px;
         border-top: 2px solid #eee;
             
-            }
+    }
 
     .head-title-1 {
         font-size: 65px;
@@ -104,7 +150,7 @@
         text-align: left;
         /* white-space: inherit; */
         width: 340px;
-        }
+    }
 
 
     .head-title-2{
@@ -123,7 +169,7 @@
         line-height: 18px;
         padding: 16px 28px;
         cursor: none;} 
-         }
+    }
 
 @media screen and (max-width: 480px) {
 
@@ -131,15 +177,15 @@
         width: 40px;
         height: 53px;
 
-        }
+    }
     header {
         padding: 60px 40px 70px;
         background-image: url(images/hero-bg-mobile.jpeg);
         justify-content: space-between;
-            }
+    }
     .title-section{
         align-items: flex-start;
-            }
+    }
 
 
     .head-title-1{
@@ -149,7 +195,7 @@
         text-align: left;
         white-space: inherit;
         width: 270px;
-}
+    }
 
     .head-title-2{
         font-size: 16px;
@@ -158,7 +204,7 @@
         white-space: pre-line;
         width: 270px;
         text-align: left;
-}
+    }
 
     .head-title-3{font-size: 18px;
         letter-spacing: 0.3px;
@@ -169,10 +215,10 @@
     }
 
 
-    .links a {
+    /* .links a {
         display: none;
             
-                }
+    } */
 
     .nav-breadcrumbs {
         display: block;
@@ -189,6 +235,18 @@
     }
 
                 
+}
+
+@media screen and (max-width: 290px){
+    .head-title-1 {
+            font-size: 30px;
+            
+        }
+    .head-title-2 {
+                    font-size: 12px;
+                    
+    }
+
 }
 
 /* header section ended ---------------------------------------------------------*/
@@ -321,7 +379,7 @@
         font-size: 65px;
         letter-spacing: -1.95px;
         line-height: 58px;
-        }
+    }
 
     .sub-third-fourth {
         font-size: 18px;
@@ -336,7 +394,7 @@
         line-height: 18px;
         padding: 16px 24px;
         cursor: none;
-        }
+    }
 
 
 
@@ -363,15 +421,15 @@
         height: 240px;
         margin-top: 35px;
         background-position: left center;
-        }
+    }
 
     .ad-quote {
         font-size: 18px;
         letter-spacing: -0.11px;
         line-height: 18px;
         opacity: 0.9;
-        }
     }
+}
    
 
 
@@ -455,7 +513,7 @@
         font-size: 14px;
         letter-spacing: 0.2px;
         line-height: 20px;
-        }
+    }
 
 }
 
@@ -465,25 +523,25 @@
     .sixth-section {
         background-position: center center;
         padding: 195px 60px 90px;
-}
+    }
 
 
     .sixth-main-title {
         font-size: 85px;
         line-height: 75px;
         max-width: 80%;
-}
+    }
 
     .sixth-sub-title {
         font-size: 24px;
         line-height: 34px;
    
-}
+    }
 
    .sixth-description {
         font-size: 16px;
         line-height: 22px;
-}
+    }
 
    .sixth-button {
         font-size: 18px;
@@ -491,7 +549,7 @@
         line-height: 18px;
         padding: 16px 28px;
         cursor: none;
-}
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -500,7 +558,7 @@
         font-size: 65px;
         letter-spacing: -1.95px;
         line-height: 58px;
-}
+    }
 
    .sixth-sub-title {
         font-size: 18px;
@@ -542,20 +600,20 @@
         margin-top: 30px;
         margin-bottom: 30px;
         flex-direction: column;
-        }
+    }
 
     .right-f-title>div:nth-child(1) {
         font-size: 12px;
         letter-spacing: 0.5px;
        
-        }
+    }
     .right-f-links a {
         font-size: 12px;
         line-height: 22px;
         letter-spacing: 0.5px;
         margin-bottom: 10px;
         
-           }
+    }
     .footer-bot-right a {
         font-size: 12px;
         margin-top: 30px;
@@ -565,7 +623,7 @@
         font-size: 12px;
         letter-spacing: 0.5px;
         line-height: 23px;
-}
+    }
                    
 }
     
@@ -592,7 +650,7 @@
    }
    
     
-    }
+}
     
 @media screen and (max-width: 480px) {
     .left-footer img:nth-child(1){
@@ -613,15 +671,16 @@
         margin-bottom: 5px;
         border-top: 0.5px solid rgb(255, 255, 255);
         padding-top: 15px
-        }
+    }
     .right-f-title div:nth-child(2) img {
         display: inline;
-        }
+    }
         
     
 }
 
 @media screen and (min-width: 481px) {
+
     .right-f-title div:nth-child(2) img{
         display: none;
 }

@@ -37,11 +37,21 @@ header{
 }
 
 .nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 }
+#toggle{
+    display:none;
+}
+
+  .nav input:checked~.nav-links {
+      z-index: 2;
+      transform: translateY(-100%);
+  }
+
+
 .nav-logo{
         display: flex;
         align-items: center;
@@ -75,6 +85,7 @@ header{
 
 .nav-breadcrumbs{
     display: none;
+    z-index: 2;
 
 }
 
